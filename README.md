@@ -3,10 +3,10 @@
 The Flask application "Complete the Dictionary" is designed to gamify the process of expanding a dictionary. Users can register, log in, and contribute words to earn points based on the uniqueness of each word they submit.
 
 ## Key Features:
-### User Registration and Authentication:
-New users can register with a unique username and password.
-Passwords are securely hashed using the pbkdf2:sha256 hashing method for storage in the database.
-Existing users can log in to their accounts securely.
+* User Registration and Authentication:
+  New users can register with a unique username and password.
+  Passwords are securely hashed using the pbkdf2:sha256 hashing method for storage in the database.
+  Existing users can log in to their accounts securely.
 
 ### User Roles:
 Users have roles (user by default), but administrators (admin) have additional privileges.
