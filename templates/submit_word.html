@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Submit a Word</h2>
+<form method="POST" action="{{ url_for('submit_word') }}">
+    <div>
+        <label for="word">Word:</label>
+        <input type="text" name="word" id="word">
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+{% endblock %}

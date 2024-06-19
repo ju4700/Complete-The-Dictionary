@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Leaderboard</h2>
+<table>
+    <tr>
+        <th>Username</th>
+        <th>Score</th>
+    </tr>
+    {% for entry in leaderboard %}
+    <tr>
+        <td>{{ entry.username }}</td>
+        <td>{{ entry.score }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
