@@ -1,5 +1,4 @@
 # Complete-The-Dictionary
-## Purpose:
 It is a practice Flask application "Complete the Dictionary" which is designed to gamify the process of expanding a dictionary. Users can register, log in, and contribute words to earn points based on the uniqueness of each word they submit. This was to see the difference between django and Flask. A little side project to learn about Flask and a bit of SQL (At the time of the project).
 
 ## Key Features:
