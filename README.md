@@ -23,6 +23,8 @@ It is a practice Flask application "Complete the Dictionary" which is designed t
   Administrators have access to an admin dashboard where they can view all users and words.
   They can delete users and words if necessary.
 
+![Screenshot from 2024-06-21 21-01-30](https://github.com/ju4700/Complete-The-Dictionary/assets/137766031/ad7d4ba9-961e-48ff-b702-4f92e0e94d23)
+
 ### Data Persistence:
 Data such as users, words, and notifications are stored in a SQLite database (dictionary_game.db) using SQLAlchemy ORM.
 
